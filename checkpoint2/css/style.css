@@ -1,0 +1,250 @@
+body{
+  color: white;
+  background: transparent;
+}
+
+*{
+  margin: 0;
+  padding-left: 0;
+}
+
+.img-container{
+background: url(../img/cupsandleaves.jpg) no-repeat center center fixed;
+  height: 700px;
+  background-size: cover;
+  justify-content: center;
+  display: flex;
+}
+
+.logo {
+ font-family: 'Dancing Script', cursive;
+ font-size: 50px;
+ float:left;
+ display: flex;
+ align-items: center;
+ background-color: #00000c;
+ height: 85px;
+ width: 40%;
+ padding-left: 5%;
+ border: 0 solid white;
+ border-bottom-width: 2px;
+}
+
+nav {
+  font-family: 'Montserrat', sans-serif;
+  display:flex;
+  float: right;
+  justify-content: space-around;
+  align-items: center;
+  right: 5%;
+  background-color: #00000c;
+  height: 85px;
+  width: 60%;
+  border: 0 solid white;
+  border-bottom-width: 2px;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
+
+  a:visited{
+    color:white;
+  }
+
+  a:hover{
+    text-decoration: line-through;
+  }
+
+  /* .front-page-logo {
+  font-family: 'Dancing Script', cursive;
+  position: absolute;
+  display: flex;
+  align-self: flex-end;
+  text-align: center;
+  color: white;
+  font-size: 65px;
+  padding-bottom: 50px;
+ } */
+
+ /* .front-page { */
+ /* font-family: 'Montserrat', sans-serif;
+ position: absolute;
+ display: flex;
+ align-self: flex-end;
+ text-align: center;
+ color: white;
+ font-size: 20px;
+ font-style: oblique;
+ padding-bottom: 20px;
+} */
+
+.row1{
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: minmax(350px, auto);
+  grid-template-areas:
+  "catering values";
+}
+
+.catering{
+  grid-area: catering;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #417523;
+  margin: 0;
+  justify-content: center;
+  text-align: justify;
+  padding: 5px;
+  padding-top: 20px;
+  border: 0 solid white;
+  border-top-width: 2px;
+}
+
+.catering-button{
+    width: 75px;
+    height: 25px;
+    display: flex;
+    background-color: black;
+    color:white;
+    text-align: center;
+    align-items: center;
+    padding: 5px;
+}
+
+.values{
+  grid-area: values;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #00000c;
+  margin: 0 auto;
+  justify-content: space-around;
+  text-align: justify;
+  padding: 5px;
+  padding-top: 20px;
+  border: 0 solid white;
+  border-top-width: 2px;
+
+}
+
+.section1 h1{
+font-family: 'Dancing Script', cursive;
+color: #fff;
+justify-content: center;
+display: flex;
+padding-top: 20px;
+font-size: 60px;
+}
+
+.valueswrapper {
+  display: block;
+  text-align: left;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin: auto;
+  padding: 5px;
+  width: 75%;
+}
+
+.section h1{
+font-family: 'Dancing Script', cursive;
+color: #000;
+justify-content: center;
+display: flex;
+padding-top: 20px;
+font-size: 60px;
+}
+
+.img-with-text{
+  text-align:justify;
+  width: 300px;
+}
+
+.img-with-text img{
+  display: block;
+  margin: 0 auto;
+}
+
+.flex{
+  font-family: 'Montserrat', sans-serif;
+  width:auto;
+  height:400px;
+  background:white;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  align-items: center;
+  text-align: justify;
+  padding: 5px;
+  color: #00000c;;
+}
+
+.wrapper1 {
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-self: flex-start;
+  margin: auto;
+  padding: 5px;
+}
+
+/* .wrapper2 {
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  padding: 5px;
+}
+
+.wrapper3 {
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
+  margin: auto;
+  padding: 5px;
+} */
+
+footer{
+  grid-area: footer;
+  background-color: #00000c;
+  height:75px;
+}
+
+.footer p{
+font-family: 'Montserrat', sans-serif;
+color: #fff;
+justify-content: center;
+align-self: baseline;
+display: flex;
+padding-top: 20px;
+}
+
+
+
+/*MOBILE MEDIA QUERY*/
+@media (min-width: 375px) and (max-width: 768px){
+  main {
+    display: grid;
+  }
+
+  body{
+    width: 100%;
+  }
+
+  nav{
+    height: 150px;
+  }
+
+  footer{
+    display: none;
+  }
+}
+
+/* @media (min-width: 375px) and (max-width: 925px){
+  article{
+    width: 100%;
+  } */
