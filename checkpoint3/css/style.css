@@ -1,10 +1,16 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 20pt;
   font-weight: normal;
-  background: green; /* For browsers that do not support gradients */
+  background: green;
+}
+
+h1{
+  font-family: 'dancing script', cursive;
+  color: white;
+  font-size: 70px;
 }
 
 .main {
@@ -16,7 +22,7 @@ button {
   padding: 20px;
   background: transparent;
   text-shadow: 1px 1px 1px #202020;
-  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 18pt;
   border: 1px solid white;
   color: white;
