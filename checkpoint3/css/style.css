@@ -1,14 +1,14 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 20pt;
   font-weight: normal;
   background: green;
 }
 
 h1{
-  font-family: 'dancing script', cursive;
+  font-family: 'Dancing Script', cursive;
   color: white;
   font-size: 70px;
 }
@@ -22,7 +22,7 @@ button {
   padding: 20px;
   background: transparent;
   text-shadow: 1px 1px 1px #202020;
-  font-family: "Montserrat", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 18pt;
   border: 1px solid white;
   color: white;
